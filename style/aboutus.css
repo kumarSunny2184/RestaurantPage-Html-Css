@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.about {
+  width: 100%;
+  padding: 38px 0px;
+  background-color: rgb(26, 41, 41);
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars for the entire page */
+}
+
+.about img {
+  height: auto;
+  width: 420px;
+}
+.about-text {
+  width: 650px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h1 {
+  color: aliceblue;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h3 {
+  color: aliceblue;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+span {
+  color: red;
+}
+.about-text p {
+  color: aliceblue;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
